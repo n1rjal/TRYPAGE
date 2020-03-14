@@ -1,0 +1,137 @@
+body{
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h{
+    font-size:40px;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(187, 54, 54);
+}
+
+
+heading{
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;  
+    font-size:28px;
+}
+
+.message{
+    display:block;
+    width:500px;
+    padding:10px;
+    max-width:500px;
+    padding-top: 10px;
+    text-align:center;
+    margin:30px auto;
+    border:2px black outset;
+    box-shadow: rgba(63, 29, 29, 0.548) 0px 0px 15px;
+}
+
+.message .hello-there{
+    display:block;
+    width:500px;
+    max-width:500px;
+    padding-top: 10px;
+    text-align:justify;
+    font-size:18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.photo, .prog{
+    transition:0.6s ease-in-out;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display:inline-block;
+    margin:10px;
+    max-width:300px;
+    padding:10px;
+    text-align:center;
+    font-size:18px;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.photo:hover, .prog:hover{
+    transition:0.6s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 17, 17);
+    display:inline-block;
+    margin:10px;
+    box-shadow: rgba(0, 0, 0, 0.404) 3px 3px 2px;
+    box-shadow: rgba(0, 0, 0, 0.274) 5px 5px 2px;
+    max-width:300px;
+    padding:10px;
+    text-align:center;
+    font-size:18px;    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.images{
+    display:block;
+    width:100%;
+    height:10cm;
+    animation-name:img_change;
+    animation-duration: 40s;
+    animation-delay: initial;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img_change{
+    0%{
+        background-image: url("gallery/photo1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 10cm auto;
+        background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
+    }
+
+    25%{
+        background-image:url("gallery/photo2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 10cm auto;
+        background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
+    }
+
+    50%{
+        background-image: url("gallery/photo3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 10cm auto;
+        background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
+    }
+
+    75%{
+        background-image:url("gallery/photo4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 10cm auto;
+        background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
+    }
+
+    100%{
+        background-image: url("gallery/photo5.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100% 10cm auto;
+        background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
+    }
+
+}
+
+#quote{
+    display:block;
+    font-weight:italic;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity:0.8;
+    width:400px;
+    margin:auto;
+    max-width: (fit-content/2-200);
+    color:rgb(88, 88, 88);
+}
