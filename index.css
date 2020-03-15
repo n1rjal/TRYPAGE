@@ -26,33 +26,20 @@ heading{
     display:block;
     width:60%;
     padding:10px;
-    max-width:40%;
+    max-width:40%; 
     padding-top: 10px;
     text-align:center;
-    margin:30px auto;
-    
+    margin: 0px;
 }
 
-.message:hover{
-    transition: 0.8s ease-in-out;
-    display:block;
-    width:60%;
-    padding:10px;
-    
-    max-width:40%;
-    padding-top: 10px;
-    text-align:center;
-    margin:30px auto;
-    /*border:1px black outset;*/
-    box-shadow: rgba(63, 29, 29, 0.548) 0px 0px 50px;
-}
 
 .message .hello-there{
     display:block;
-    width:500px;
-    max-width:500px;
+    position: relative;
+    width:100%;
+    /*max-width:500px;*/
     padding-top: 10px;
-    text-align:justify;
+    text-align:center;
     font-size:18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -168,7 +155,8 @@ heading{
     width:40px;
     height:40px;
     opacity:0.8;
-    padding:10px
+    padding:10px;
+    text-align: center;
 }
 
 .logo:hover{
@@ -177,6 +165,7 @@ heading{
     opacity:1;
     transition: 0.6s ease-in-out;
     transform: translateY(-3px);
+    text-align:center;
 }
 
 #quote{
