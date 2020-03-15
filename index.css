@@ -26,7 +26,6 @@ heading{
     display:block;
     width:60%;
     padding:10px;
-    height:auto;
     max-width:40%;
     padding-top: 10px;
     text-align:center;
@@ -39,12 +38,12 @@ heading{
     display:block;
     width:60%;
     padding:10px;
-    height:auto;
+    
     max-width:40%;
     padding-top: 10px;
     text-align:center;
     margin:30px auto;
-    border:2px black outset;
+    /*border:1px black outset;*/
     box-shadow: rgba(63, 29, 29, 0.548) 0px 0px 50px;
 }
 
@@ -155,6 +154,29 @@ heading{
         background-size:100% 20cm auto;
         background-image: linear-gradient(to-right,rgba(15, 15, 15, 0.507),rgba(37, 33, 33, 0.5));
     }
+}
+
+.socialmedia{
+    display:inline-block;
+    position:-webkit-sticky;
+    position:sticky;
+    bottom:0;
+
+}
+
+.logo{
+    width:40px;
+    height:40px;
+    opacity:0.8;
+    padding:10px
+}
+
+.logo:hover{
+    width:40px;
+    height:40px;
+    opacity:1;
+    transition: 0.6s ease-in-out;
+    transform: translateY(-3px);
 }
 
 #quote{
